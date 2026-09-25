@@ -52,7 +52,7 @@ This identifies a remaining product concern: what counts as a consecutive day wh
 A possible path is:
 
 ```text
-Commit -> Review and checks -> Merge
+Code changes (commit, review and checks, merge)
   |
   v
 Build and validation
