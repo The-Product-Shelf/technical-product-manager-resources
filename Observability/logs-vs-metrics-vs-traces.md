@@ -85,6 +85,11 @@ Include links to the relevant records in the approved internal system. Share onl
 
 For terms such as span, SLO and percentile, see the [observability glossary](observability-glossary-for-product-managers.md).
 
+## Related resources
+
+- [Reading Logs and Correlation IDs for PMs](reading-logs-and-correlation-ids-for-pms.md) — Build a timeline across retries without treating IDs or log levels as proof.
+- [Production Incident Investigation for PMs](production-incident-investigation-for-pms.md) — Structure evidence, impact, escalation and recovery checks.
+
 ---
 
 ### Practice following the evidence

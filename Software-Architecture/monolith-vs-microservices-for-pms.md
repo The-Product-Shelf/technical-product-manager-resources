@@ -67,6 +67,11 @@ Before committing, agree on a small set of outcomes: fewer blocked releases, mor
 
 Need the underlying vocabulary? Start with the [architecture glossary](software-architecture-glossary-for-pms.md).
 
+## Related resources
+
+- [Technical Debt for Product Managers](technical-debt-for-product-managers.md) — Turn a debt proposal into evidence, options and a measurable outcome.
+- [Queues and Message Brokers for PMs](queues-and-message-brokers-for-pms.md) — Reason about backlogs, redelivery, ordering and failed work.
+
 ---
 
 ### Understand the decisions behind the diagram

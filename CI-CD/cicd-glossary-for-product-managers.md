@@ -79,6 +79,11 @@ This is a simplified example with a feature flag. Checks may run before and afte
 
 For launch and recovery decisions, continue with [Deployment vs Release vs Rollback vs Feature Flag](deployment-release-rollback-feature-flags.md).
 
+## Related resources
+
+- [Automated Tests for Product Managers](automated-tests-for-product-managers.md) — Connect test layers to product risks and remaining uncertainty.
+- [Mobile App Releases for Product Managers](mobile-app-releases-for-product-managers.md) — Coordinate store distribution, installed versions and backend compatibility.
+
 ---
 
 ### Follow a feature all the way to users

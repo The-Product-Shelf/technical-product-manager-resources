@@ -66,6 +66,11 @@ The next step is to investigate who received the invitations, whether they under
 
 For calculation details and common denominator mistakes, use the [product metrics cheat sheet](product-metrics-cheat-sheet.md).
 
+## Related resources
+
+- [Activation for Product Managers](activation-for-product-managers.md) — Select and validate a first-value hypothesis and measurement window.
+- [Retention and Cohorts for Product Managers](retention-and-cohorts-for-product-managers.md) — Read a cohort table with consistent eligibility and observation time.
+
 ---
 
 ### Develop a measurement approach for your product

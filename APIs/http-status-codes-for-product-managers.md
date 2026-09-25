@@ -97,6 +97,11 @@ From Product, specify what users should see while the outcome is uncertain. “W
 
 The useful outcome is a clear recovery path: users understand what happened, what remains pending, and whether they need to act.
 
+## Related resources
+
+- [API Timeouts and Retries for Product Managers](api-timeouts-and-retries-for-product-managers.md) — Design pending states, retry limits and recovery for uncertain outcomes.
+- [Idempotency for Product Managers](idempotency-for-product-managers.md) — Prevent duplicate business operations when a request is repeated.
+
 ---
 
 ### Put API responses in context

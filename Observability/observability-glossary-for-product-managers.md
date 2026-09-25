@@ -54,6 +54,11 @@ The target is a proposal for discussion, not a benchmark for Velora or every che
 - Who receives an alert, and what should happen next?
 - Are we viewing the same time window, timezone and customer segment?
 
+## Related resources
+
+- [Percentiles, p95 and p99 for PMs](percentiles-p95-and-p99-for-pms.md) — Interpret tail latency, measurement windows and segment effects.
+- [Production Incident Investigation for PMs](production-incident-investigation-for-pms.md) — Structure evidence, impact, escalation and recovery checks.
+
 ---
 
 ### Turn observability terms into an investigation

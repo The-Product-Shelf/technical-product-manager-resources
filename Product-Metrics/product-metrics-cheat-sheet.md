@@ -74,6 +74,12 @@ A before-and-after difference is evidence of change, not proof that a release ca
 
 Use [North Star, Input Metrics & Guardrails](north-star-input-and-guardrail-metrics.md) to connect these definitions to a product goal, and the [SQL cheat sheet](../SQL/sql-cheat-sheet-for-product-managers.md) to begin exploring recorded activity.
 
+## Related resources
+
+- [Activation for Product Managers](activation-for-product-managers.md) — Select and validate a first-value hypothesis and measurement window.
+- [Retention and Cohorts for Product Managers](retention-and-cohorts-for-product-managers.md) — Read a cohort table with consistent eligibility and observation time.
+- [Churn for Product Managers](churn-for-product-managers.md) — Distinguish customer loss, revenue loss and expansion with a worked ledger.
+
 ---
 
 ### Choose what is worth measuring
