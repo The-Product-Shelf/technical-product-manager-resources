@@ -52,6 +52,11 @@ See [activation](activation-for-product-managers.md) for first-value hypotheses 
 
 [Amplitude: how retention is calculated](https://amplitude.com/docs/analytics/charts/retention-analysis/retention-analysis-calculation) illustrates how return definitions and time settings change a retention analysis.
 
+## Related resources
+
+- [Retention and Cohort Queries for Product Managers](../SQL/retention-and-cohort-queries-for-product-managers.md) — Calculate mature calendar-week retention with deduplicated returners and fixed cohorts.
+- [DAU, WAU and MAU for Product Managers](dau-wau-mau-for-product-managers.md) — Define meaningful activity and distinguish unique audiences from repeated use.
+
 ---
 
 ### Interpret return behavior in context

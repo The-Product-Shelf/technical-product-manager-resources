@@ -97,6 +97,9 @@ That may be exactly what we want when targeting current customers. For a histori
 - [GROUP BY, WHERE and HAVING for Product Managers](group-by-where-and-having-for-product-managers.md) — Build segment summaries and distinguish input filters from group filters.
 - [Product Funnel Queries for Product Managers](product-funnel-queries-for-product-managers.md) — Implement an ordered, bounded funnel with reproducible sample data.
 
+- [Finding Duplicates and Handling NULLs for PMs](finding-duplicates-and-handling-nulls-for-pms.md) — Separate repeated delivery, conflicting records and missing identity before counting.
+- [Databases and Product Data Models for PMs](../Software-Architecture/databases-and-product-data-models-for-pms.md) — Specify entity identity, relationships and historical truth before choosing storage.
+
 ---
 
 ### Use joined data to answer product questions

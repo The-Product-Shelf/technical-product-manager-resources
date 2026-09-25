@@ -53,6 +53,10 @@ Also include the cost of transition: temporary parallel paths, compatibility, da
 
 Use [automated tests](../CI-CD/automated-tests-for-product-managers.md) to discuss evidence for behavior preservation and [progressive rollouts](../CI-CD/progressive-rollouts-for-product-managers.md) when exposure can be controlled.
 
+## Related resources
+
+- [Scalability for Product Managers](scalability-for-product-managers.md) — Translate a campaign forecast into workload assumptions and capacity evidence.
+
 ---
 
 ### Bring architectural constraints into product planning

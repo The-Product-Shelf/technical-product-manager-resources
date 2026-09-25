@@ -57,6 +57,10 @@ Pair activation with guardrails such as unwanted invitation reports and support 
 
 Use [funnel queries](../SQL/product-funnel-queries-for-product-managers.md) to implement ordered steps and [retention cohorts](retention-and-cohorts-for-product-managers.md) to evaluate later behavior. The [metrics cheat sheet](product-metrics-cheat-sheet.md) provides complementary definitions.
 
+## Related resources
+
+- [Funnel Analysis for Product Managers](funnel-analysis-for-product-managers.md) — Interpret drop-offs and choose an investigation without confusing friction with tracking gaps.
+
 ---
 
 ### Connect early behavior with lasting value

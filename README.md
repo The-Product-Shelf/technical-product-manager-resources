@@ -1,16 +1,18 @@
 # Technical Product Manager Resources
 
+**Technical skills for Product Managers, explained simply.**
+
 **Free practical resources for Product Managers who want to become more technical — without becoming developers.**
 
 Created by **The Product Shelf**.
 
 **You don't need to become an engineer to become a more technical Product Manager.**
 
-**38 resources · 7 topics · No coding required**
+**56 resources · 7 topics · No coding required**
 
 Product Managers work with APIs, databases, architecture, logs, deployments and security every day. You don't need to know how to build these systems. But understanding how they work helps you **ask better questions, have better conversations with engineers and make better product decisions.**
 
-This library contains 38 practical guides, cheat sheets and glossaries. Each resource stands on its own, with plain-English explanations, illustrative product scenarios and questions to bring to your team. Start with the topic closest to your current work.
+This library contains 56 practical guides, cheat sheets and glossaries. Each resource stands on its own, with plain-English explanations, illustrative product scenarios and questions to bring to your team. Start with the topic closest to your current work.
 
 ## Not sure where to start?
 
@@ -29,6 +31,9 @@ This is a suggestion, not a required order. Each resource stands on its own, so 
 - [Pagination and Rate Limits for Product Managers](APIs/pagination-and-rate-limits-for-product-managers.md) — Plan a complete import under changing data and request limits.
 - [Idempotency for Product Managers](APIs/idempotency-for-product-managers.md) — Prevent duplicate business operations when a request is repeated.
 - [API Timeouts and Retries for Product Managers](APIs/api-timeouts-and-retries-for-product-managers.md) — Design pending states, retry limits and recovery for uncertain outcomes.
+- [API Versioning and Deprecation for Product Managers](APIs/api-versioning-and-deprecation-for-product-managers.md) — Plan a consumer migration with compatibility evidence and a retirement decision.
+- [REST vs GraphQL for Product Managers](APIs/rest-vs-graphql-for-product-managers.md) — Compare interfaces against a real screen, authorization and operating constraints.
+- [API Integration Discovery Checklist for Product Managers](APIs/api-integration-discovery-checklist.md) — Turn provider unknowns into a scoped decision with evidence and owners.
 
 ## 🏗 Software Architecture
 
@@ -38,6 +43,9 @@ This is a suggestion, not a required order. Each resource stands on its own, so 
 - [Queues and Message Brokers for PMs](Software-Architecture/queues-and-message-brokers-for-pms.md) — Reason about backlogs, redelivery, ordering and failed work.
 - [Caching for Product Managers](Software-Architecture/caching-for-product-managers.md) — Agree on acceptable freshness for different product data.
 - [Technical Debt for Product Managers](Software-Architecture/technical-debt-for-product-managers.md) — Turn a debt proposal into evidence, options and a measurable outcome.
+- [Scalability for Product Managers](Software-Architecture/scalability-for-product-managers.md) — Translate a campaign forecast into workload assumptions and capacity evidence.
+- [Databases and Product Data Models for PMs](Software-Architecture/databases-and-product-data-models-for-pms.md) — Specify entity identity, relationships and historical truth before choosing storage.
+- [Dependencies and Graceful Degradation for PMs](Software-Architecture/dependencies-and-graceful-degradation-for-pms.md) — Define a truthful usable journey when a dependency fails and when it recovers.
 
 ## 🗄 SQL & Data
 
@@ -46,6 +54,9 @@ This is a suggestion, not a required order. Each resource stands on its own, so 
 - [GROUP BY, WHERE and HAVING for Product Managers](SQL/group-by-where-and-having-for-product-managers.md) — Build segment summaries and distinguish input filters from group filters.
 - [CTEs for Product Managers](SQL/ctes-for-product-managers.md) — Make a multi-stage analysis readable and check its intermediate populations.
 - [Product Funnel Queries for Product Managers](SQL/product-funnel-queries-for-product-managers.md) — Implement an ordered, bounded funnel with reproducible sample data.
+- [Date and Time Queries for Product Managers](SQL/date-and-time-queries-for-product-managers.md) — Select a business day across daylight-saving boundaries without losing zero-activity days.
+- [Finding Duplicates and Handling NULLs for PMs](SQL/finding-duplicates-and-handling-nulls-for-pms.md) — Separate repeated delivery, conflicting records and missing identity before counting.
+- [Retention and Cohort Queries for Product Managers](SQL/retention-and-cohort-queries-for-product-managers.md) — Calculate mature calendar-week retention with deduplicated returners and fixed cohorts.
 
 ## 📊 Product Metrics
 
@@ -54,6 +65,9 @@ This is a suggestion, not a required order. Each resource stands on its own, so 
 - [Activation for Product Managers](Product-Metrics/activation-for-product-managers.md) — Select and validate a first-value hypothesis and measurement window.
 - [Retention and Cohorts for Product Managers](Product-Metrics/retention-and-cohorts-for-product-managers.md) — Read a cohort table with consistent eligibility and observation time.
 - [Churn for Product Managers](Product-Metrics/churn-for-product-managers.md) — Distinguish customer loss, revenue loss and expansion with a worked ledger.
+- [Funnel Analysis for Product Managers](Product-Metrics/funnel-analysis-for-product-managers.md) — Interpret drop-offs and choose an investigation without confusing friction with tracking gaps.
+- [DAU, WAU and MAU for Product Managers](Product-Metrics/dau-wau-mau-for-product-managers.md) — Define meaningful activity and distinguish unique audiences from repeated use.
+- [Evaluating a Metric Change for Product Managers](Product-Metrics/evaluating-a-metric-change-for-product-managers.md) — Check measurement, population mix and causal claims before reacting to a change.
 
 ## 🔎 Observability
 
@@ -62,6 +76,8 @@ This is a suggestion, not a required order. Each resource stands on its own, so 
 - [Reading Logs and Correlation IDs for PMs](Observability/reading-logs-and-correlation-ids-for-pms.md) — Build a timeline across retries without treating IDs or log levels as proof.
 - [Percentiles, p95 and p99 for PMs](Observability/percentiles-p95-and-p99-for-pms.md) — Interpret tail latency, measurement windows and segment effects.
 - [Production Incident Investigation for PMs](Observability/production-incident-investigation-for-pms.md) — Structure evidence, impact, escalation and recovery checks.
+- [How to Investigate Logs in Kibana as a Product Manager](Observability/how-to-investigate-logs-in-kibana-as-a-pm.md) — Build and hand off a reproducible search with explicit scope and field assumptions.
+- [Actionable Dashboards and Alerts for PMs](Observability/actionable-dashboards-and-alerts-for-pms.md) — Connect a signal to a customer outcome, response owner and useful next action.
 
 ## 🔐 Security
 
@@ -70,6 +86,8 @@ This is a suggestion, not a required order. Each resource stands on its own, so 
 - [Sessions for Product Managers](Security/sessions-for-product-managers.md) — Specify expiry, logout and revocation across devices and organizations.
 - [API Keys vs OAuth for Product Managers](Security/api-keys-vs-oauth-for-product-managers.md) — Choose an access model for service and user-delegated integrations.
 - [MFA and Account Recovery for Product Managers](Security/mfa-and-account-recovery-for-product-managers.md) — Protect sensitive actions while designing usable recovery paths.
+- [SSO and Employee Lifecycle for Product Managers](Security/sso-and-employee-lifecycle-for-product-managers.md) — Separate sign-in federation from provisioning, role changes and deprovisioning.
+- [Data Minimization and Audit Logs for PMs](Security/data-minimization-and-audit-logs-for-pms.md) — Design useful accountability evidence without collecting unnecessary sensitive data.
 
 ## 🚀 CI/CD & Releases
 
@@ -78,6 +96,8 @@ This is a suggestion, not a required order. Each resource stands on its own, so 
 - [Automated Tests for Product Managers](CI-CD/automated-tests-for-product-managers.md) — Connect test layers to product risks and remaining uncertainty.
 - [Progressive Rollouts for Product Managers](CI-CD/progressive-rollouts-for-product-managers.md) — Define exposure units, evidence gates and stop conditions.
 - [Mobile App Releases for Product Managers](CI-CD/mobile-app-releases-for-product-managers.md) — Coordinate store distribution, installed versions and backend compatibility.
+- [Environment Parity for Product Managers](CI-CD/environment-parity-for-product-managers.md) — Explain what staging evidence transfers to production and which differences remain.
+- [Release Dependencies and Readiness for PMs](CI-CD/release-dependencies-and-readiness-for-pms.md) — Coordinate compatible components, rollout gates and recovery ownership.
 
 ## Using the resources
 

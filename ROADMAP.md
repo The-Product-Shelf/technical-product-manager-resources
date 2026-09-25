@@ -1,122 +1,90 @@
-# Library Expansion Roadmap
+# Library Coverage and Editorial Roadmap
 
 Technical skills for Product Managers, explained simply.
 
-This roadmap was prepared from the published 14-resource library before drafting the expansion. It separates the current batch from candidates that require further validation. It is a **candidate coverage map for possible future expansion** within the existing seven categories. Candidates are editorial possibilities, not a quota or a publishing commitment.
+This is a maintenance-oriented **candidate coverage map**, not a publication quota or commitment. The current library contains **56 resources across seven categories**. Future additions depend on a distinct reader need and evidence that existing pages cannot answer it well.
 
-## Audit of the starting library
+## Re-audit before the second batch
 
-| Category | Covered sufficiently in the existing resources | Gap selected for this batch |
-| --- | --- | --- |
-| APIs | Terminology, HTTP response interpretation and partial-failure example. | Request behavior, synchronization, imports and safe recovery. |
-| Software Architecture | Component vocabulary, monolith/microservice trade-offs and basic asynchronous/caching examples. | Lifecycle design, messaging behavior, freshness policy and debt prioritization. |
-| SQL & Data | Core syntax, counts, date boundaries, INNER/LEFT JOIN, row multiplication and current/historical attributes. | Deeper grouping decisions, staged queries and a runnable ordered funnel. |
-| Product Metrics | Basic definitions, denominators, percentage-point distinction, North Star inputs and guardrails. | Operational definitions of activation, cohort retention and different forms of churn. |
-| Observability | Signal comparison, identifiers, basic SLI/SLO/SLA definitions and a transaction investigation. | Correlating attempts, reading latency distributions and coordinating an incident investigation. |
-| Security | Core terms, a resource-scoped permission matrix and role-change concerns. | Session lifecycle, delegated integration access and authentication recovery. |
-| CI/CD & Releases | Delivery vocabulary, deployment/exposure distinction and basic recovery options. | Rollout decision gates, test evidence and mobile version coexistence. |
+The audit used current main after PR #2: README, CONTRIBUTING, ROADMAP and all 38 resources. Existing definitions and worked examples remain the source of truth. The 18 remaining candidates were assessed for a separate PM task, not accepted merely to reach a count.
 
-## Resource counts
+| Category | Already covered by the 38-resource library | Distinct gap addressed in batch two |
+|---|---|---|
+| APIs | Terminology, methods/status codes, sync, imports, idempotency and retries. | Contract migration, interface comparison and evidence-based discovery. |
+| Software Architecture | Components, deployment boundaries, async jobs, queues, caching and technical debt. | Workload planning, data identity/history and dependency failure journeys. |
+| SQL & Data | Core syntax, joins, grouping, CTEs and an ordered funnel. | Time boundaries, anomaly diagnosis and executable mature-cohort retention. |
+| Product Metrics | Measurement contracts, North Star/guardrails, activation, retention and churn. | Funnel interpretation, unique active audiences and mix-shift diagnosis. |
+| Observability | Signal types, identifiers, percentiles and incident response. | Reproducible Kibana searches and signals tied to response ownership. |
+| Security | Identity/permissions, sessions, integration access and MFA recovery. | Federated employee lifecycle and proportionate audit evidence. |
+| CI/CD & Releases | Delivery terms, recovery, tests, progressive rollout and mobile releases. | Confidence across environments and readiness across dependencies. |
 
-| Category | Starting library | New in this batch | After this batch | Later candidates |
-| --- | --- | --- | --- | --- |
-| APIs | 2 | 5 | 7 | 3 |
-| Software-Architecture | 2 | 4 | 6 | 3 |
-| SQL | 2 | 3 | 5 | 3 |
-| Product-Metrics | 2 | 3 | 5 | 3 |
-| Observability | 2 | 3 | 5 | 2 |
-| Security | 2 | 3 | 5 | 2 |
-| CI-CD | 2 | 3 | 5 | 2 |
-| **Total** | **14** | **24** | **38** | **18** |
+## Current resource counts
 
-## Selected batch and boundaries
+| Category | Before batch two | Added | Current coverage |
+|---|---:|---:|---:|
+| APIs | 7 | 3 | 10 |
+| Software Architecture | 6 | 3 | 9 |
+| SQL & Data | 5 | 3 | 8 |
+| Product Metrics | 5 | 3 | 8 |
+| Observability | 5 | 2 | 7 |
+| Security | 5 | 2 | 7 |
+| CI/CD & Releases | 5 | 2 | 7 |
+| **Total** | **38** | **18** | **56** |
 
-The new pieces go beyond definitions already present in the library. Each has a distinct question, worked example or task. Existing explanations remain in place and receive only useful cross-links.
+## Implemented candidates
 
-| Resource | Format | Additional value |
-| --- | --- | --- |
-| [HTTP Methods for Product Managers](APIs/http-methods-for-product-managers.md) | Cheat sheet | Choose the operation and understand safe versus idempotent behavior. |
-| [Polling vs Webhooks for Product Managers](APIs/polling-vs-webhooks-for-product-managers.md) | Explainer | Define freshness, delivery failure and reconciliation for calendar sync. |
-| [Pagination and Rate Limits for Product Managers](APIs/pagination-and-rate-limits-for-product-managers.md) | Practical guide | Plan a complete import under changing data and request limits. |
-| [Idempotency for Product Managers](APIs/idempotency-for-product-managers.md) | Explainer | Prevent duplicate business operations when a request is repeated. |
-| [API Timeouts and Retries for Product Managers](APIs/api-timeouts-and-retries-for-product-managers.md) | Practical guide | Design pending states, retry limits and recovery for uncertain outcomes. |
-| [Synchronous vs Asynchronous Processing for PMs](Software-Architecture/synchronous-vs-asynchronous-processing-for-pms.md) | Explainer | Separate acceptance from completion and specify the job lifecycle. |
-| [Queues and Message Brokers for PMs](Software-Architecture/queues-and-message-brokers-for-pms.md) | Explainer | Reason about backlogs, redelivery, ordering and failed work. |
-| [Caching for Product Managers](Software-Architecture/caching-for-product-managers.md) | Practical guide | Agree on acceptable freshness for different product data. |
-| [Technical Debt for Product Managers](Software-Architecture/technical-debt-for-product-managers.md) | Practical guide | Turn a debt proposal into evidence, options and a measurable outcome. |
-| [GROUP BY, WHERE and HAVING for Product Managers](SQL/group-by-where-and-having-for-product-managers.md) | Cheat sheet | Build segment summaries and distinguish input filters from group filters. |
-| [CTEs for Product Managers](SQL/ctes-for-product-managers.md) | Practical guide | Make a multi-stage analysis readable and check its intermediate populations. |
-| [Product Funnel Queries for Product Managers](SQL/product-funnel-queries-for-product-managers.md) | Practical guide | Implement an ordered, bounded funnel with reproducible sample data. |
-| [Activation for Product Managers](Product-Metrics/activation-for-product-managers.md) | Practical guide | Select and validate a first-value hypothesis and measurement window. |
-| [Retention and Cohorts for Product Managers](Product-Metrics/retention-and-cohorts-for-product-managers.md) | Practical guide | Read a cohort table with consistent eligibility and observation time. |
-| [Churn for Product Managers](Product-Metrics/churn-for-product-managers.md) | Cheat sheet | Distinguish customer loss, revenue loss and expansion with a worked ledger. |
-| [Reading Logs and Correlation IDs for PMs](Observability/reading-logs-and-correlation-ids-for-pms.md) | Practical guide | Build a timeline across retries without treating IDs or log levels as proof. |
-| [Percentiles, p95 and p99 for PMs](Observability/percentiles-p95-and-p99-for-pms.md) | Explainer | Interpret tail latency, measurement windows and segment effects. |
-| [Production Incident Investigation for PMs](Observability/production-incident-investigation-for-pms.md) | Practical guide | Structure evidence, impact, escalation and recovery checks. |
-| [Sessions for Product Managers](Security/sessions-for-product-managers.md) | Practical guide | Specify expiry, logout and revocation across devices and organizations. |
-| [API Keys vs OAuth for Product Managers](Security/api-keys-vs-oauth-for-product-managers.md) | Explainer | Choose an access model for service and user-delegated integrations. |
-| [MFA and Account Recovery for Product Managers](Security/mfa-and-account-recovery-for-product-managers.md) | Practical guide | Protect sensitive actions while designing usable recovery paths. |
-| [Progressive Rollouts for Product Managers](CI-CD/progressive-rollouts-for-product-managers.md) | Practical guide | Define exposure units, evidence gates and stop conditions. |
-| [Automated Tests for Product Managers](CI-CD/automated-tests-for-product-managers.md) | Reference | Connect test layers to product risks and remaining uncertainty. |
-| [Mobile App Releases for Product Managers](CI-CD/mobile-app-releases-for-product-managers.md) | Practical guide | Coordinate store distribution, installed versions and backend compatibility. |
+These topics now belong to existing coverage. Their boundaries explain why they have standalone pages.
 
-## Later candidates
+| Resource | Format | Distinct PM question or task |
+|---|---|---|
+| [API Versioning and Deprecation for Product Managers](APIs/api-versioning-and-deprecation-for-product-managers.md) | Practical guide | Plan a consumer migration with compatibility evidence and a retirement decision. |
+| [REST vs GraphQL for Product Managers](APIs/rest-vs-graphql-for-product-managers.md) | Explainer | Compare interfaces against a real screen, authorization and operating constraints. |
+| [API Integration Discovery Checklist for Product Managers](APIs/api-integration-discovery-checklist.md) | Reference | Turn provider unknowns into a scoped decision with evidence and owners. |
+| [Scalability for Product Managers](Software-Architecture/scalability-for-product-managers.md) | Practical guide | Translate a campaign forecast into workload assumptions and capacity evidence. |
+| [Databases and Product Data Models for PMs](Software-Architecture/databases-and-product-data-models-for-pms.md) | Explainer | Specify entity identity, relationships and historical truth before choosing storage. |
+| [Dependencies and Graceful Degradation for PMs](Software-Architecture/dependencies-and-graceful-degradation-for-pms.md) | Practical guide | Define a truthful usable journey when a dependency fails and when it recovers. |
+| [Date and Time Queries for Product Managers](SQL/date-and-time-queries-for-product-managers.md) | Cheat sheet | Select a business day across daylight-saving boundaries without losing zero-activity days. |
+| [Finding Duplicates and Handling NULLs for PMs](SQL/finding-duplicates-and-handling-nulls-for-pms.md) | Practical guide | Separate repeated delivery, conflicting records and missing identity before counting. |
+| [Retention and Cohort Queries for Product Managers](SQL/retention-and-cohort-queries-for-product-managers.md) | Practical guide | Calculate mature calendar-week retention with deduplicated returners and fixed cohorts. |
+| [Funnel Analysis for Product Managers](Product-Metrics/funnel-analysis-for-product-managers.md) | Practical guide | Interpret drop-offs and choose an investigation without confusing friction with tracking gaps. |
+| [DAU, WAU and MAU for Product Managers](Product-Metrics/dau-wau-mau-for-product-managers.md) | Cheat sheet | Define meaningful activity and distinguish unique audiences from repeated use. |
+| [Evaluating a Metric Change for Product Managers](Product-Metrics/evaluating-a-metric-change-for-product-managers.md) | Practical guide | Check measurement, population mix and causal claims before reacting to a change. |
+| [How to Investigate Logs in Kibana as a Product Manager](Observability/how-to-investigate-logs-in-kibana-as-a-pm.md) | Practical guide | Build and hand off a reproducible search with explicit scope and field assumptions. |
+| [Actionable Dashboards and Alerts for PMs](Observability/actionable-dashboards-and-alerts-for-pms.md) | Practical guide | Connect a signal to a customer outcome, response owner and useful next action. |
+| [SSO and Employee Lifecycle for Product Managers](Security/sso-and-employee-lifecycle-for-product-managers.md) | Practical guide | Separate sign-in federation from provisioning, role changes and deprovisioning. |
+| [Data Minimization and Audit Logs for PMs](Security/data-minimization-and-audit-logs-for-pms.md) | Practical guide | Design useful accountability evidence without collecting unnecessary sensitive data. |
+| [Environment Parity for Product Managers](CI-CD/environment-parity-for-product-managers.md) | Practical guide | Explain what staging evidence transfers to production and which differences remain. |
+| [Release Dependencies and Readiness for PMs](CI-CD/release-dependencies-and-readiness-for-pms.md) | Reference | Coordinate compatible components, rollout gates and recovery ownership. |
 
-These are editorial possibilities, not a publication quota. Revisit them after observing reader questions and use. Titles describe intended boundaries; no files or links are promised yet.
+## Topics combined or rejected as separate pages
 
-### APIs
+- **Engagement and DAU/WAU/MAU** remain one page: the useful task is defining meaningful unique activity and cadence, not another generic engagement definition.
+- **Duplicates and NULLs** share an input-diagnosis guide. Separate short syntax primers would repeat the SQL cheat sheet; the new page distinguishes redelivery, conflicting IDs and unknown identity.
+- **Dashboards and alerts** share a decision-and-response guide. Another SLI/SLO/SLA glossary would repeat existing coverage.
+- **Data minimization and audit logs** share an event-design workflow: choose useful evidence, access and retention without unnecessary sensitive payloads. A general security vocabulary page would duplicate the glossary.
+- **Kibana** earns a page through reproducible search scope, KQL and field assumptions. A click-by-click interface tour is deliberately omitted because deployment/version differences would make it fragile.
+- **Funnel analysis** interprets observed drop-offs; the existing SQL funnel page implements a query. **SQL retention** implements a mature population; the existing retention/cohort page defines and interprets the metric. Neither new page repeats the existing one wholesale.
+- **SSO** focuses on provisioning, role changes and departure, while the existing authentication, session and MFA pages retain their explanations.
+- Standalone introductions to retries, webhooks, cache, roles, feature flags, test layers and rollback would repeat current content and were not added.
+- Scalability does not introduce a preferred architecture ladder. Readiness coordinates dependencies; environment parity qualifies test evidence rather than repeating the CI/CD glossary.
 
-- API versioning and deprecation — migration planning and consumer communication.
-- REST vs GraphQL — matching client needs to a documented interface.
-- API integration discovery checklist — capability validation before commitment.
+## Remaining editorial possibilities
 
-### Software-Architecture
+The earlier candidate list is now implemented with the boundaries above. The re-audit surfaced narrower possibilities that should be validated against reader questions before drafting:
 
-- Scalability — workload dimensions and capacity evidence.
-- Databases and product data models — relationships and ownership.
-- Dependencies and graceful degradation — usable journeys during provider failures.
+| Possible topic | Distinct need to validate | Boundary against existing coverage |
+|---|---|---|
+| Stored-data migrations and backfills | Plan reconciliation and recovery when historical data must change | Go beyond API versioning and release readiness without becoming a migration-engineering tutorial |
+| Instrumentation changes and metric continuity | Preserve interpretation when event schemas or tracking change | Focus on change control and reconciliation, not another general metric-change checklist |
+| Machine identity ownership | Transfer or retire service access independently of employee accounts | Extend the SSO lifecycle gap without repeating API keys/OAuth |
+| Retention and deletion propagation | Trace a reviewed data policy through derived copies and exports | Extend minimization with lifecycle evidence; avoid prescriptive legal rules |
 
-### SQL
-
-- Date and time queries — business days, timezones and observation windows.
-- Finding duplicates and handling NULLs — diagnose data quality before aggregation.
-- Retention and cohort queries — implement the metric definitions with mature cohorts.
-
-### Product-Metrics
-
-- Funnel analysis — interpret drop-offs, identity and ordered steps.
-- Engagement and DAU/WAU/MAU — meaningful activity at the product’s natural cadence.
-- Evaluating a metric change — mix shifts, tracking checks and causal uncertainty.
-
-### Observability
-
-- Kibana investigation walkthrough — search and filtering in a stated version.
-- Actionable dashboards and alerts — signals, owners and response decisions.
-
-### Security
-
-- SSO and employee lifecycle — identity-provider boundaries and deprovisioning.
-- Data minimization and audit logs — purpose, retention and accountability.
-
-### CI-CD
-
-- Environment parity — what staging can and cannot establish.
-- Release dependencies and readiness — coordinate components, people and communications.
-
-## Topics intentionally not split into new files
-
-- Frontend/backend and client/server already have useful explanations in the architecture glossary. A second introductory definition would add little.
-- WHERE vs HAVING and GROUP BY are treated together because the useful task is building a correct grouped analysis.
-- Webhooks and polling share one comparison; pagination and rate limits share an import-planning guide. Separate short definitions would duplicate the API glossary.
-- A new authentication-versus-authorization or roles-and-permissions primer would duplicate the existing policy example. The access-model guide focuses on integration credentials instead.
-- A separate feature-flags glossary, hotfix definition or rollback-versus-roll-forward primer would repeat the release guide. The rollout guide adds audience selection and evidence gates.
-- A separate SLI/SLO/SLA glossary, guardrail primer or percentage-points explainer is not needed in this batch. Their core distinctions are already covered.
-- Retention/cohorts is a metric-design guide; the later SQL cohort candidate would implement those definitions. The current SQL funnel guide concentrates on query correctness rather than a second glossary of conversion metrics.
+These are editorial possibilities, not scheduled resources. Combine them with existing pages if that serves readers better; discard them if the distinct need is not established.
 
 ## Future category ideas
 
-AI & LLMs, Data & Analytics, Cloud & Infrastructure, Mobile Apps, Integrations, Experimentation, Performance and Privacy may warrant separate categories later. No new category is introduced here. First assess reader demand and overlap with the existing seven categories.
+AI & LLMs, Cloud & Infrastructure, Experimentation, Privacy and other categories remain outside the current expansion. Validate demand and overlap first. Data, mobile delivery, integration and performance topics already have homes in the existing seven categories; a new heading is not automatically necessary.
 
 ## Review criteria
 
-A resource earns its place by answering a useful PM question independently, retaining technical qualifications, linking to related material and providing one relevant final book link. Scope, accuracy and reader needs determine which candidates, if any, become resources.
+A resource should answer a useful PM question independently, preserve technical qualifications, link where the next question naturally arises, and provide exactly one relevant final book CTA. SQL needs executable synthetic examples and honest test claims. Reader value and accuracy determine additions, not a numerical publishing target.
