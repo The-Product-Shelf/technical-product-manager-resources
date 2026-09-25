@@ -68,10 +68,12 @@ For calculation details and common denominator mistakes, use the [product metric
 
 ---
 
-### Want to go deeper?
+### Develop a measurement approach for your product
 
 This resource is part of The Product Shelf's free Technical Product Management library.
 
-**Product Metrics for Product Managers** explores these topics through practical product scenarios.
+**Product Metrics for Product Managers**
 
-→ [Explore the book at The Product Shelf](https://theproductshelf.com/product/product-metrics-for-product-managers/)
+Explore how Klyvero connects product questions to metric definitions, customer value and the side effects a team should watch.
+
+→ [Continue learning at The Product Shelf](https://theproductshelf.com/product/product-metrics-for-product-managers/)

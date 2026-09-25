@@ -2,6 +2,21 @@
 
 A reference for defining metrics before putting them on a dashboard.
 
+## Quick Reference
+
+For rates, divide the numerator by the matching denominator and multiply by 100.
+
+| Question | Metric | Numerator / denominator |
+| --- | --- | --- |
+| Do new accounts reach first value? | Activation | Accounts completing the defined behavior / eligible new accounts with a full observation window |
+| Who uses the feature? | Adoption | Eligible active users using it / all eligible active users in the same period |
+| Do people return? | Retention | Cohort members returning in the defined window / eligible starting cohort |
+| Are we losing customers? | Customer churn | Starting paying accounts that leave / paying accounts at period start |
+
+**Always specify:** user or account, qualifying behavior, eligibility and time window. These definitions need to fit your product.
+
+## Using this cheat sheet
+
 Klyvero is a fictional project management product. Its users create projects, organize tasks and invite teammates. The definitions below are examples for discussion, not universal standards or recommended performance benchmarks.
 
 ## Give every metric a clear definition
@@ -61,10 +76,12 @@ Use [North Star, Input Metrics & Guardrails](north-star-input-and-guardrail-metr
 
 ---
 
-### Want to go deeper?
+### Choose what is worth measuring
 
 This resource is part of The Product Shelf's free Technical Product Management library.
 
-**Product Metrics for Product Managers** explores these topics through practical product scenarios.
+**Product Metrics for Product Managers**
 
-→ [Explore the book at The Product Shelf](https://theproductshelf.com/product/product-metrics-for-product-managers/)
+Use Klyvero’s scenarios to define activation, retention, funnels and cohorts, and connect the measures to decisions rather than just dashboards.
+
+→ [Continue learning at The Product Shelf](https://theproductshelf.com/product/product-metrics-for-product-managers/)

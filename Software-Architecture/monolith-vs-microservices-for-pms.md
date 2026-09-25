@@ -10,6 +10,22 @@ A **monolith** is an application deployed as a unit. It can still contain well-s
 
 A **microservices architecture** divides the application into services designed to be deployed independently. Those services communicate across boundaries and typically own their data. Independence takes deliberate design; putting code into separate repositories does not create it automatically.
 
+```text
+Monolith: one application deployment unit
++--------------------------------------+
+| Catalog | Checkout | Order management |
++--------------------------------------+
+
+Microservices: separate deployment units
+[Catalog service] <-- API/messages --> [Checkout service]
+                                             |
+                                        API/messages
+                                             |
+                                    [Order service]
+```
+
+This simplified view shows deployment boundaries, not every component or data store. Separate services still need compatible interfaces; the boxes alone do not guarantee independent delivery.
+
 The comparison below describes tendencies, not guarantees. Microsoft's [microservices architecture guidance](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices) discusses both the benefits and the operational challenges.
 
 | Dimension | Monolith | Microservices | PM question |
@@ -53,10 +69,12 @@ Need the underlying vocabulary? Start with the [architecture glossary](software-
 
 ---
 
-### Want to go deeper?
+### Understand the decisions behind the diagram
 
 This resource is part of The Product Shelf's free Technical Product Management library.
 
-**Software Architecture for Product Managers** explores these topics through practical product scenarios.
+**Software Architecture for Product Managers**
 
-→ [Explore the book at The Product Shelf](https://theproductshelf.com/product/software-architecture-for-pms/)
+Explore how dependencies, scaling, queues and data shape Nómada’s architecture, giving service boundaries a wider product context.
+
+→ [Continue learning at The Product Shelf](https://theproductshelf.com/product/software-architecture-for-pms/)

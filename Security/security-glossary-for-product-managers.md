@@ -62,10 +62,12 @@ For a worked permissions example, see [Authentication vs Authorization](authenti
 
 ---
 
-### Want to go deeper?
+### Apply security concepts to everyday features
 
 This resource is part of The Product Shelf's free Technical Product Management library.
 
-**Security for Product Managers** explores these topics through practical product scenarios.
+**Security for Product Managers**
 
-→ [Explore the book at The Product Shelf](https://theproductshelf.com/product/security-for-product-managers/)
+Explore Klyvero’s sign-in, session, integration and data-protection decisions from the perspective of product behavior and risk.
+
+→ [Continue learning at The Product Shelf](https://theproductshelf.com/product/security-for-product-managers/)

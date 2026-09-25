@@ -15,6 +15,26 @@ Klyvero is a fictional project management product used by several organizations.
 
 OWASP separates these responsibilities in its [authorization guidance](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html). A successful login should not be treated as a blanket access decision.
 
+```text
+Request: export organization A's members
+                  |
+          Authenticate Laura
+                  |
+                  +-- Not established --> Do not proceed
+                  |
+            Identity established
+                  |
+     Authorize this export for organization A
+                  |
+                  +-- Denied -----------> Do not export
+                  |
+                Allowed
+                  |
+             Perform export
+```
+
+This is a conceptual decision flow. Being recognized as Laura gets the request to the permission check; it does not decide the result of that check.
+
 ## Turn “admins can export” into a policy
 
 Suppose Klyvero is adding a member export. The following is an illustrative policy to discuss, not a default for every SaaS product.
@@ -63,10 +83,12 @@ For related vocabulary, use the [security glossary](security-glossary-for-produc
 
 ---
 
-### Want to go deeper?
+### Follow access through the user lifecycle
 
 This resource is part of The Product Shelf's free Technical Product Management library.
 
-**Security for Product Managers** explores these topics through practical product scenarios.
+**Security for Product Managers**
 
-→ [Explore the book at The Product Shelf](https://theproductshelf.com/product/security-for-product-managers/)
+Explore authentication, sessions, account recovery and permissions, including the product questions that arise when access changes.
+
+→ [Continue learning at The Product Shelf](https://theproductshelf.com/product/security-for-product-managers/)

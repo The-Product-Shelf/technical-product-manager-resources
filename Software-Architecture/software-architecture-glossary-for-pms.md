@@ -63,10 +63,12 @@ For a comparison of deployment structures, continue with [Monolith vs Microservi
 
 ---
 
-### Want to go deeper?
+### Connect the architecture pieces
 
 This resource is part of The Product Shelf's free Technical Product Management library.
 
-**Software Architecture for Product Managers** explores these topics through practical product scenarios.
+**Software Architecture for Product Managers**
 
-→ [Explore the book at The Product Shelf](https://theproductshelf.com/product/software-architecture-for-pms/)
+Follow Nómada as it grows, introducing components when a product problem calls for them and examining the trade-offs each brings.
+
+→ [Continue learning at The Product Shelf](https://theproductshelf.com/product/software-architecture-for-pms/)
