@@ -45,6 +45,10 @@ Use the [status-code reference](http-status-codes-for-product-managers.md) to in
 
 A useful question for Engineering is: “Which documented operation achieves the customer's intended outcome, and what can happen if we repeat it or another change happens first?”
 
+## Related resources
+
+- [API Versioning and Deprecation for Product Managers](api-versioning-and-deprecation-for-product-managers.md) — Plan a consumer migration with compatibility evidence and a retirement decision.
+
 ---
 
 ### Connect methods to integration decisions

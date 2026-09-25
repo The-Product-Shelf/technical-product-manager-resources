@@ -49,6 +49,10 @@ For diagnosis, compare latency and freshness by route and audience; a high overa
 
 Related: the [architecture glossary](software-architecture-glossary-for-pms.md) introduces components, while [p95 and p99](../Observability/percentiles-p95-and-p99-for-pms.md) helps assess the response-time distribution.
 
+## Related resources
+
+- [Dependencies and Graceful Degradation for PMs](dependencies-and-graceful-degradation-for-pms.md) — Define a truthful usable journey when a dependency fails and when it recovers.
+
 ---
 
 ### Evaluate speed and freshness together

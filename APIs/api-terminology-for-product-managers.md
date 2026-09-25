@@ -60,6 +60,9 @@ These answers describe different products, even if each is labeled “calendar s
 - [Polling vs Webhooks for Product Managers](polling-vs-webhooks-for-product-managers.md) — Define freshness, delivery failure and reconciliation for calendar sync.
 - [Pagination and Rate Limits for Product Managers](pagination-and-rate-limits-for-product-managers.md) — Plan a complete import under changing data and request limits.
 
+- [REST vs GraphQL for Product Managers](rest-vs-graphql-for-product-managers.md) — Compare interfaces against a real screen, authorization and operating constraints.
+- [API Integration Discovery Checklist for Product Managers](api-integration-discovery-checklist.md) — Turn provider unknowns into a scoped decision with evidence and owners.
+
 ---
 
 ### Explore an integration from start to finish

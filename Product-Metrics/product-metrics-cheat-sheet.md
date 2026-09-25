@@ -80,6 +80,8 @@ Use [North Star, Input Metrics & Guardrails](north-star-input-and-guardrail-metr
 - [Retention and Cohorts for Product Managers](retention-and-cohorts-for-product-managers.md) — Read a cohort table with consistent eligibility and observation time.
 - [Churn for Product Managers](churn-for-product-managers.md) — Distinguish customer loss, revenue loss and expansion with a worked ledger.
 
+- [Evaluating a Metric Change for Product Managers](evaluating-a-metric-change-for-product-managers.md) — Check measurement, population mix and causal claims before reacting to a change.
+
 ---
 
 ### Choose what is worth measuring

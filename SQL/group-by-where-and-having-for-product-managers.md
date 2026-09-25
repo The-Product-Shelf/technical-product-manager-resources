@@ -68,6 +68,10 @@ Use [CTEs](ctes-for-product-managers.md) when several populations or stages make
 
 [PostgreSQL: table expressions](https://www.postgresql.org/docs/current/queries-table-expressions.html) explains grouping and the different roles of WHERE and HAVING.
 
+## Related resources
+
+- [Date and Time Queries for Product Managers](date-and-time-queries-for-product-managers.md) — Select a business day across daylight-saving boundaries without losing zero-activity days.
+
 ---
 
 ### Read summaries with confidence

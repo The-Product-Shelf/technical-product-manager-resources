@@ -54,6 +54,10 @@ Use [logs, metrics and traces](logs-vs-metrics-vs-traces.md) together. [Timeouts
 
 [OpenTelemetry: traces](https://opentelemetry.io/docs/concepts/signals/traces/) explains trace and span relationships and context propagation.
 
+## Related resources
+
+- [How to Investigate Logs in Kibana as a Product Manager](how-to-investigate-logs-in-kibana-as-a-pm.md) — Build and hand off a reproducible search with explicit scope and field assumptions.
+
 ---
 
 ### Follow the evidence behind a customer problem

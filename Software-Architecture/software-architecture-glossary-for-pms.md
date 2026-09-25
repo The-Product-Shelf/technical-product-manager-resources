@@ -67,6 +67,8 @@ For a comparison of deployment structures, continue with [Monolith vs Microservi
 - [Queues and Message Brokers for PMs](queues-and-message-brokers-for-pms.md) — Reason about backlogs, redelivery, ordering and failed work.
 - [Caching for Product Managers](caching-for-product-managers.md) — Agree on acceptable freshness for different product data.
 
+- [Databases and Product Data Models for PMs](databases-and-product-data-models-for-pms.md) — Specify entity identity, relationships and historical truth before choosing storage.
+
 ---
 
 ### Connect the architecture pieces

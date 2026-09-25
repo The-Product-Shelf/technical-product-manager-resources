@@ -54,6 +54,10 @@ Which relevant changes generate events? Can we recover changes that happened whi
 
 For recovering a large backlog, continue with [pagination and rate limits](pagination-and-rate-limits-for-product-managers.md). For asynchronous completion states, see [synchronous vs asynchronous processing](../Software-Architecture/synchronous-vs-asynchronous-processing-for-pms.md).
 
+## Related resources
+
+- [API Integration Discovery Checklist for Product Managers](api-integration-discovery-checklist.md) — Turn provider unknowns into a scoped decision with evidence and owners.
+
 ---
 
 ### Plan the whole synchronization experience

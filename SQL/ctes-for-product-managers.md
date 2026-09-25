@@ -74,6 +74,10 @@ Read [GROUP BY, WHERE and HAVING](group-by-where-and-having-for-product-managers
 
 [PostgreSQL: WITH queries](https://www.postgresql.org/docs/current/queries-with.html) covers CTE scope, evaluation and materialization considerations.
 
+## Related resources
+
+- [Retention and Cohort Queries for Product Managers](retention-and-cohort-queries-for-product-managers.md) — Calculate mature calendar-week retention with deduplicated returners and fixed cohorts.
+
 ---
 
 ### Make multi-stage analysis easier to review

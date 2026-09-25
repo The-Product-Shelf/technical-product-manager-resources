@@ -51,6 +51,10 @@ Use the [CI/CD glossary](cicd-glossary-for-product-managers.md) to locate tests 
 
 [Martin Fowler: The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) discusses test layers and trade-offs. Its guidance is not a requirement to adopt a fixed test-count ratio.
 
+## Related resources
+
+- [Environment Parity for Product Managers](environment-parity-for-product-managers.md) — Explain what staging evidence transfers to production and which differences remain.
+
 ---
 
 ### Connect delivery checks with product confidence

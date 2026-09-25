@@ -59,6 +59,10 @@ Related: [percentiles](percentiles-p95-and-p99-for-pms.md) for performance inter
 
 [Google SRE: incident response](https://sre.google/workbook/incident-response/) describes coordinated roles, communication and learning from incidents.
 
+## Related resources
+
+- [Actionable Dashboards and Alerts for PMs](actionable-dashboards-and-alerts-for-pms.md) — Connect a signal to a customer outcome, response owner and useful next action.
+
 ---
 
 ### Connect incident signals with customer impact

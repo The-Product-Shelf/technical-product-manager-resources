@@ -53,6 +53,10 @@ See [authentication vs authorization](authentication-vs-authorization.md), [API 
 
 [OWASP: Session Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) covers session lifecycle and security controls. Use it with Security, not as a substitute for an implementation review.
 
+## Related resources
+
+- [SSO and Employee Lifecycle for Product Managers](sso-and-employee-lifecycle-for-product-managers.md) — Separate sign-in federation from provisioning, role changes and deprovisioning.
+
 ---
 
 ### Design access beyond the login screen

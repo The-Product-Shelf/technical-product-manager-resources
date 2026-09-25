@@ -61,6 +61,10 @@ Use [progressive rollouts](progressive-rollouts-for-product-managers.md) for exp
 - [Apple: release a version update in phases](https://developer.apple.com/help/app-store-connect/update-your-app/release-a-version-update-in-phases/).
 - [Google Play: staged rollouts](https://support.google.com/googleplay/android-developer/answer/6346149).
 
+## Related resources
+
+- [Release Dependencies and Readiness for PMs](release-dependencies-and-readiness-for-pms.md) — Coordinate compatible components, rollout gates and recovery ownership.
+
 ---
 
 ### Coordinate deployment with the customer’s actual version

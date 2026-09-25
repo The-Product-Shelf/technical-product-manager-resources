@@ -55,6 +55,11 @@ Related: [deployment, release, rollback and flags](deployment-release-rollback-f
 
 [Google SRE: canarying releases](https://sre.google/workbook/canarying-releases/) explains evaluation and operational considerations for limited initial exposure.
 
+## Related resources
+
+- [Release Dependencies and Readiness for PMs](release-dependencies-and-readiness-for-pms.md) — Coordinate compatible components, rollout gates and recovery ownership.
+- [Actionable Dashboards and Alerts for PMs](../Observability/actionable-dashboards-and-alerts-for-pms.md) — Connect a signal to a customer outcome, response owner and useful next action.
+
 ---
 
 ### Plan releases around evidence and recovery

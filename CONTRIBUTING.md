@@ -10,7 +10,7 @@ Corrections, technical error reports and suggestions that make these resources c
 
 You can also open a pull request with a focused change. Explain the problem and how your edit improves accuracy or clarity. Keep the existing plain-English, Product Manager perspective and preserve qualifications, examples and links that remain useful. Check relative links and Markdown formatting before submitting.
 
-This library currently covers 38 resources in seven topics. Please discuss larger changes in an issue first; keep corrections separate from proposals to expand the library.
+This library currently covers 56 resources in seven topics. Please discuss larger changes in an issue first; keep corrections separate from proposals to expand the library.
 
 ## Keep examples safe to share
 

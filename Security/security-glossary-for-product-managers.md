@@ -65,6 +65,8 @@ For a worked permissions example, see [Authentication vs Authorization](authenti
 - [API Keys vs OAuth for Product Managers](api-keys-vs-oauth-for-product-managers.md) — Choose an access model for service and user-delegated integrations.
 - [MFA and Account Recovery for Product Managers](mfa-and-account-recovery-for-product-managers.md) — Protect sensitive actions while designing usable recovery paths.
 
+- [Data Minimization and Audit Logs for PMs](data-minimization-and-audit-logs-for-pms.md) — Design useful accountability evidence without collecting unnecessary sensitive data.
+
 ---
 
 ### Apply security concepts to everyday features
