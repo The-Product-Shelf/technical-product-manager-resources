@@ -2,6 +2,21 @@
 
 Turn a product question into a query, then check that the result answers the question you meant to ask.
 
+## Quick Reference
+
+| Need to… | Reach for… |
+| --- | --- |
+| Choose columns and rows | `SELECT ... FROM ... WHERE ...` |
+| Sort and limit the result | `ORDER BY ... LIMIT ...` |
+| Count actions | `COUNT(*)` on an events table |
+| Count people | `COUNT(DISTINCT user_id)` |
+| Compare groups | `GROUP BY`; filter the totals with `HAVING` |
+| Find missing values | `IS NULL` |
+
+**Before trusting a number:** check what one row represents, the population and the time window. `COUNT(DISTINCT user_id)` excludes NULL identifiers; a count alone is not an adoption rate.
+
+## Using this cheat sheet
+
 Klyvero is a fictional project management product. We want to investigate Project Templates: who uses the feature, how often, and whether the data is complete. The examples use PostgreSQL-compatible SQL and a small illustrative schema, not a production dataset. Date functions and other syntax can differ in your warehouse.
 
 ## Know what a row represents
@@ -103,10 +118,12 @@ To combine user attributes with activity, use [SQL JOINs Explained](sql-joins-ex
 
 ---
 
-### Want to go deeper?
+### Build confidence with product queries
 
 This resource is part of The Product Shelf's free Technical Product Management library.
 
-**SQL for Product Managers** explores these topics through practical product scenarios.
+**SQL for Product Managers**
 
-→ [Explore the book at The Product Shelf](https://theproductshelf.com/product/sql-for-product-managers/)
+Practice turning Klyvero’s product questions into queries, then use the results to investigate adoption, funnels and changes in behavior.
+
+→ [Continue learning at The Product Shelf](https://theproductshelf.com/product/sql-for-product-managers/)

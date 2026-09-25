@@ -56,10 +56,12 @@ These answers describe different products, even if each is labeled “calendar s
 
 ---
 
-### Want to go deeper?
+### Explore an integration from start to finish
 
 This resource is part of The Product Shelf's free Technical Product Management library.
 
-**APIs for Product Managers** explores these topics through practical product scenarios.
+**APIs for Product Managers**
 
-→ [Explore the book at The Product Shelf](https://theproductshelf.com/product/apis-for-product-managers/)
+Follow Nubira from requests and endpoints to documentation, authentication and the product decisions behind an integration.
+
+→ [Continue learning at The Product Shelf](https://theproductshelf.com/product/apis-for-product-managers/)

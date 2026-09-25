@@ -4,9 +4,21 @@
 
 Created by **The Product Shelf**.
 
+**You don't need to become an engineer to become a more technical Product Manager.**
+
+**14 resources · 7 topics · No coding required**
+
 Product Managers work with APIs, databases, architecture, logs, deployments and security every day. You don't need to know how to build these systems. But understanding how they work helps you **ask better questions, have better conversations with engineers and make better product decisions.**
 
 This library contains 14 practical guides, cheat sheets and glossaries. Each resource stands on its own, with plain-English explanations, illustrative product scenarios and questions to bring to your team. Start with the topic closest to your current work.
+
+## Not sure where to start?
+
+Follow this **suggested learning path** if you would like a sequence that connects the topics:
+
+APIs → Software Architecture → SQL & Data → Product Metrics → Observability → Security → CI/CD & Releases
+
+This is a suggestion, not a required order. Each resource stands on its own, so jump straight to the question you are working on. The SQL examples introduce the syntax as you go; no prior coding knowledge is needed.
 
 ## 📡 APIs
 
@@ -47,7 +59,7 @@ This library contains 14 practical guides, cheat sheets and glossaries. Each res
 
 The fictional products and sample data make each concept concrete. Example metrics, policies and launch conditions are discussion aids, not universal benchmarks. Adapt them with Engineering, Data and Security to your product's actual behavior.
 
-Found a mistake or an unclear explanation? [Open an issue](https://github.com/The-Product-Shelf/technical-product-manager-resources/issues) with the resource and the passage you want to discuss. Please keep customer information and credentials out of public examples.
+Found a mistake or an unclear explanation? Corrections and suggestions are welcome through [Issues](https://github.com/The-Product-Shelf/technical-product-manager-resources/issues) or pull requests. See [how to contribute](CONTRIBUTING.md). Please keep customer information and credentials out of public examples.
 
 ## License
 

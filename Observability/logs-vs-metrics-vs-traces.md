@@ -14,6 +14,18 @@ Velora is a fictional food-ordering platform. A customer says, “I was charged,
 
 These roles overlap: metrics can be derived from logs, and logs can include trace identifiers. OpenTelemetry explains the relationship in its [signal documentation](https://opentelemetry.io/docs/concepts/signals/).
 
+```text
+Order-confirmation problem
+    |
+    +-- METRICS --> Failure rate over a time window
+    |
+    +-- LOGS ----> Records for order ORD-8472
+    |
+    +-- TRACES --> Path and timing of related work
+```
+
+These are complementary views, not a required investigation sequence. Connecting a particular order to a trace depends on the identifiers and instrumentation available.
+
 ## Follow one case, then establish its scope
 
 ### 1. Start with identifiers and time
@@ -75,10 +87,12 @@ For terms such as span, SLO and percentile, see the [observability glossary](obs
 
 ---
 
-### Want to go deeper?
+### Practice following the evidence
 
 This resource is part of The Product Shelf's free Technical Product Management library.
 
-**Logs, Kibana, and Observability for Product Managers** explores these topics through practical product scenarios.
+**Logs, Kibana, and Observability for Product Managers**
 
-→ [Explore the book at The Product Shelf](https://theproductshelf.com/product/logs-kibana-observability-product-managers/)
+Work through Velora investigations using time windows, related identifiers and log searches, while separating observations from unconfirmed causes.
+
+→ [Continue learning at The Product Shelf](https://theproductshelf.com/product/logs-kibana-observability-product-managers/)

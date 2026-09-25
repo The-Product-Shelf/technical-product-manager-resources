@@ -99,10 +99,12 @@ The useful outcome is a clear recovery path: users understand what happened, wha
 
 ---
 
-### Want to go deeper?
+### Put API responses in context
 
 This resource is part of The Product Shelf's free Technical Product Management library.
 
-**APIs for Product Managers** follows Nubira through requests, responses, authentication, API documentation, and integration decisions.
+**APIs for Product Managers**
 
-→ [Explore the book at The Product Shelf](https://theproductshelf.com/product/apis-for-product-managers/)
+Use Nubira’s integration scenarios to connect status codes with requests, authentication, provider limits and the experience you want to deliver.
+
+→ [Continue learning at The Product Shelf](https://theproductshelf.com/product/apis-for-product-managers/)

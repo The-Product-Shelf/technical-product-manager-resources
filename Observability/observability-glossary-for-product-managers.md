@@ -56,10 +56,12 @@ The target is a proposal for discussion, not a benchmark for Velora or every che
 
 ---
 
-### Want to go deeper?
+### Turn observability terms into an investigation
 
 This resource is part of The Product Shelf's free Technical Product Management library.
 
-**Logs, Kibana, and Observability for Product Managers** explores these topics through practical product scenarios.
+**Logs, Kibana, and Observability for Product Managers**
 
-→ [Explore the book at The Product Shelf](https://theproductshelf.com/product/logs-kibana-observability-product-managers/)
+Follow Velora’s transactions and learn how timestamps, identifiers and Kibana searches help you gather useful incident context.
+
+→ [Continue learning at The Product Shelf](https://theproductshelf.com/product/logs-kibana-observability-product-managers/)

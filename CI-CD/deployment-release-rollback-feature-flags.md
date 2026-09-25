@@ -20,6 +20,25 @@ Teams use these words differently. This guide uses “release” to mean making 
 
 For more on separating feature exposure from deployment, see [Feature Toggles](https://martinfowler.com/articles/feature-toggles.html).
 
+```text
+Deploy version B to production
+Learning Streaks remains OFF for customers
+                    |
+          Enable flag for a group
+                    v
+Version B: Streaks ON for that group
+                    |
+              Disable flag
+                    v
+Version B: Streaks OFF again
+
+Version recovery is a separate action:
+Rollback:      B --> A (earlier version)
+Roll forward:  B --> C (version with a fix)
+```
+
+Turning off the flag leaves version B deployed. Whether it stops the faulty behavior depends on what the flag controls; changing versions does not automatically undo changes to data.
+
 ## Example: expand only after reviewing the evidence
 
 An illustrative Lumen launch could proceed as follows:
@@ -66,10 +85,12 @@ For the earlier stages of delivery, use the [CI/CD glossary](cicd-glossary-for-p
 
 ---
 
-### Want to go deeper?
+### Explore launch and recovery decisions
 
 This resource is part of The Product Shelf's free Technical Product Management library.
 
-**CI/CD and releases for Product Managers** explores these topics through practical product scenarios.
+**CI/CD and releases for Product Managers**
 
-→ [Explore the book at The Product Shelf](https://theproductshelf.com/product/ci-cd-and-releases-for-pms/)
+Use Lumen’s Learning Streaks scenarios to examine progressive exposure, rollback, fixes and what changes when a release reaches mobile devices.
+
+→ [Continue learning at The Product Shelf](https://theproductshelf.com/product/ci-cd-and-releases-for-pms/)

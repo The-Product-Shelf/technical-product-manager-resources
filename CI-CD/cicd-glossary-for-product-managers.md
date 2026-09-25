@@ -52,11 +52,22 @@ This identifies a remaining product concern: what counts as a consecutive day wh
 A possible path is:
 
 ```text
-Commit → Review and checks → Merge → Build and validation
-       → Staging → Production deployment → Customer exposure
+Code changes (commit, review and checks, merge)
+  |
+  v
+Build and validation
+  |
+  v
+Staging
+  |
+  v
+Production deployment (flag OFF)
+  |
+  v
+Customer exposure (flag ON for selected audience)
 ```
 
-This is a simplified example. Checks may run before and after merging, builds may happen at several stages, and some teams organize the path differently. Map your team's actual milestones instead of treating this sequence as universal.
+This is a simplified example with a feature flag. Checks may run before and after merging, builds may happen at several stages, and some teams organize the path differently. Map your team's actual milestones instead of treating this sequence as universal.
 
 ## Questions worth asking Engineering
 
@@ -70,10 +81,12 @@ For launch and recovery decisions, continue with [Deployment vs Release vs Rollb
 
 ---
 
-### Want to go deeper?
+### Follow a feature all the way to users
 
 This resource is part of The Product Shelf's free Technical Product Management library.
 
-**CI/CD and releases for Product Managers** explores these topics through practical product scenarios.
+**CI/CD and releases for Product Managers**
 
-→ [Explore the book at The Product Shelf](https://theproductshelf.com/product/ci-cd-and-releases-for-pms/)
+Follow Learning Streaks through Lumen’s reviews, builds, environments and launch decisions, including the additional constraints of mobile delivery.
+
+→ [Continue learning at The Product Shelf](https://theproductshelf.com/product/ci-cd-and-releases-for-pms/)

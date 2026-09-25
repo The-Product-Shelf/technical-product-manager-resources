@@ -94,10 +94,12 @@ That may be exactly what we want when targeting current customers. For a histori
 
 ---
 
-### Want to go deeper?
+### Use joined data to answer product questions
 
 This resource is part of The Product Shelf's free Technical Product Management library.
 
-**SQL for Product Managers** explores these topics through practical product scenarios.
+**SQL for Product Managers**
 
-→ [Explore the book at The Product Shelf](https://theproductshelf.com/product/sql-for-product-managers/)
+Work through Klyvero examples that connect users and activity, check what the results count, and apply SQL to product analysis.
+
+→ [Continue learning at The Product Shelf](https://theproductshelf.com/product/sql-for-product-managers/)
