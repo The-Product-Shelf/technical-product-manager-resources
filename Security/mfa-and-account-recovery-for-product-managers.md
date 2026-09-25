@@ -10,13 +10,13 @@ For Klyvero, an administrator can export workspace data and manage membership. P
 
 | Method or control | Useful property | Product consideration |
 |---|---|---|
-| Authenticator-generated code | Adds possession-based evidence alongside another factor | Codes can still be phished; device loss needs recovery |
+| Authenticator-generated code | Typically demonstrates control of an enrolled authenticator; factor classification depends on provisioning and configuration | Codes can still be phished; device loss needs recovery |
 | Push approval | Can make approval convenient | Unexpected prompts and approval fatigue need attention |
 | SMS code | Familiar and widely reachable in some markets | Phone-number takeover and delivery limitations affect risk and usability |
-| FIDO/WebAuthn-based method | Can provide phishing resistance through origin binding | Device support, enrollment and recovery still matter |
+| FIDO/WebAuthn-based method | Can provide phishing resistance through origin binding | MFA and assurance properties depend on configuration and required user verification; enrollment and recovery still matter |
 | Recovery code | Can restore access under a defined policy | Treat it as a secret; it should not be casually shared with support |
 
-Not every passkey interaction should be described identically: whether a deployment meets a particular multi-factor assurance requirement depends on its configuration and user verification. Have Security assess the actual method and requirements.
+Factor and assurance classification depends on the concrete authentication configuration, how the authenticator is provisioned and protected, and the user-verification requirements. A code or a FIDO/WebAuthn label alone does not establish the same MFA properties in every deployment. Have Security assess the actual method and requirements.
 
 ## Worked scenario: the sole administrator loses a device
 

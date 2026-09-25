@@ -2,7 +2,7 @@
 
 Technical skills for Product Managers, explained simply.
 
-This roadmap was prepared from the published 14-resource library before drafting the expansion. It separates the current batch from candidates that require further validation. The target is **56 resources across the existing seven categories**, not a commitment to publish every candidate.
+This roadmap was prepared from the published 14-resource library before drafting the expansion. It separates the current batch from candidates that require further validation. It is a **candidate coverage map for possible future expansion** within the existing seven categories. Candidates are editorial possibilities, not a quota or a publishing commitment.
 
 ## Audit of the starting library
 
@@ -18,16 +18,16 @@ This roadmap was prepared from the published 14-resource library before drafting
 
 ## Resource counts
 
-| Category | Starting library | New in this batch | After this batch | Later candidates | Roadmap target |
-| --- | --- | --- | --- | --- | --- |
-| APIs | 2 | 5 | 7 | 3 | 10 |
-| Software-Architecture | 2 | 4 | 6 | 3 | 9 |
-| SQL | 2 | 3 | 5 | 3 | 8 |
-| Product-Metrics | 2 | 3 | 5 | 3 | 8 |
-| Observability | 2 | 3 | 5 | 2 | 7 |
-| Security | 2 | 3 | 5 | 2 | 7 |
-| CI-CD | 2 | 3 | 5 | 2 | 7 |
-| **Total** | **14** | **24** | **38** | **18** | **56** |
+| Category | Starting library | New in this batch | After this batch | Later candidates |
+| --- | --- | --- | --- | --- |
+| APIs | 2 | 5 | 7 | 3 |
+| Software-Architecture | 2 | 4 | 6 | 3 |
+| SQL | 2 | 3 | 5 | 3 |
+| Product-Metrics | 2 | 3 | 5 | 3 |
+| Observability | 2 | 3 | 5 | 2 |
+| Security | 2 | 3 | 5 | 2 |
+| CI-CD | 2 | 3 | 5 | 2 |
+| **Total** | **14** | **24** | **38** | **18** |
 
 ## Selected batch and boundaries
 
@@ -62,7 +62,7 @@ The new pieces go beyond definitions already present in the library. Each has a 
 
 ## Later candidates
 
-Revisit these after observing reader questions and use. Titles describe intended boundaries; no files or links are promised yet.
+These are editorial possibilities, not a publication quota. Revisit them after observing reader questions and use. Titles describe intended boundaries; no files or links are promised yet.
 
 ### APIs
 
@@ -119,4 +119,4 @@ AI & LLMs, Data & Analytics, Cloud & Infrastructure, Mobile Apps, Integrations, 
 
 ## Review criteria
 
-A resource earns its place by answering a useful PM question independently, retaining technical qualifications, linking to related material and providing one relevant final book link. Scope and accuracy matter more than reaching the target count.
+A resource earns its place by answering a useful PM question independently, retaining technical qualifications, linking to related material and providing one relevant final book link. Scope, accuracy and reader needs determine which candidates, if any, become resources.

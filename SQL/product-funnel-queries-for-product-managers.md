@@ -38,14 +38,14 @@ WITH events(user_id, event_name, event_hour) AS (
      AND e.event_hour < s.start_hour + 168
     GROUP BY s.user_id, s.start_hour
 ), invitations AS (
-    SELECT c.user_id, c.create_hour, MIN(e.event_hour) AS invite_hour
+    SELECT c.user_id, c.start_hour, c.create_hour, MIN(e.event_hour) AS invite_hour
     FROM creations c
     LEFT JOIN events e
       ON e.user_id = c.user_id
      AND e.event_name = 'invite'
      AND e.event_hour > c.create_hour
      AND e.event_hour < c.start_hour + 168
-    GROUP BY c.user_id, c.create_hour
+    GROUP BY c.user_id, c.start_hour, c.create_hour
 )
 SELECT
     COUNT(*) AS started,

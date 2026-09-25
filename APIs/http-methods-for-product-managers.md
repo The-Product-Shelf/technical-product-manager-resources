@@ -20,7 +20,7 @@ These are protocol intentions, not a promise that every API supports each operat
 
 **Safe** means the requested semantics are read-only. Logging or usage accounting can still happen. GET is safe; using it for a destructive action would violate that expectation.
 
-**Idempotent** means repeating an identical request has the same intended effect as performing it once. PUT and DELETE have this property by definition; POST and PATCH do not guarantee it. A particular POST API may provide an idempotency mechanism.
+**Idempotent** means repeating an identical request has the same intended effect as performing it once. HTTP defines PUT and DELETE as idempotent in their intended semantics, although implementations and external side effects still need to be verified. POST and PATCH do not guarantee idempotency. A particular POST API may provide an idempotency mechanism.
 
 Identical effects do not require identical responses. A first DELETE might succeed, while the next reports that the resource is absent. Check the actual API contract rather than selecting a retry policy from the verb alone. See the [idempotency guide](idempotency-for-product-managers.md).
 

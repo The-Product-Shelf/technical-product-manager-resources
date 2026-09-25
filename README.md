@@ -81,8 +81,6 @@ This is a suggestion, not a required order. Each resource stands on its own, so 
 
 ## Using the resources
 
-The [expansion roadmap](ROADMAP.md) records the coverage audit and candidates for a future 56-resource library.
-
 The fictional products and sample data make each concept concrete. Example metrics, policies and launch conditions are discussion aids, not universal benchmarks. Adapt them with Engineering, Data and Security to your product's actual behavior.
 
 Found a mistake or an unclear explanation? Corrections and suggestions are welcome through [Issues](https://github.com/The-Product-Shelf/technical-product-manager-resources/issues) or pull requests. See [how to contribute](CONTRIBUTING.md). Please keep customer information and credentials out of public examples.
