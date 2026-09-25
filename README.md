@@ -49,6 +49,12 @@ The fictional products and sample data make each concept concrete. Example metri
 
 Found a mistake or an unclear explanation? [Open an issue](https://github.com/The-Product-Shelf/technical-product-manager-resources/issues) with the resource and the passage you want to discuss. Please keep customer information and credentials out of public examples.
 
+## License
+
+The original educational content in this repository is licensed under **[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)**. You may share and adapt it for noncommercial purposes, subject to the license terms, including crediting The Product Shelf, linking to the license and indicating changes.
+
+This license does not cover the books or other materials linked from these resources. See [LICENSE.md](LICENSE.md) for scope, attribution guidance and the full license terms.
+
 ## About The Product Shelf
 
 **The Product Shelf** is a collection of practical books and learning resources designed to help Product Managers understand the technical side of building software.
