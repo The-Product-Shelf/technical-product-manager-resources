@@ -14,7 +14,7 @@ Klyvero wants daily task activity for a Madrid-based workspace. A local calendar
 
 ## A runnable boundary example
 
-This synthetic fixture uses fixed-width UTC text in `YYYY-MM-DD HH:MM:SS` format. Within this deliberately normalized format, lexical order matches chronological order. The query runs unchanged in SQLite and uses PostgreSQL-compatible SQL. It does **not** implement timezone conversion: the calendar boundaries are supplied explicitly, as they could be by a reviewed calendar table.
+This synthetic fixture uses fixed-width UTC text in `YYYY-MM-DD HH:MM:SS` format. Within this deliberately normalized format, lexical order matches chronological order. The query runs unchanged in SQLite, and its SQL syntax is compatible with PostgreSQL. The TEXT timestamp representation is deliberately chosen only for this self-contained, cross-engine teaching fixture; it is not a recommended PostgreSQL production pattern. Real PostgreSQL analysis should use appropriate `timestamp` / `timestamp with time zone` types and explicit timezone handling. It does **not** implement timezone conversion: the calendar boundaries are supplied explicitly, as they could be by a reviewed calendar table.
 
 For `Europe/Madrid`, March 29, 2026 spans 23 elapsed hours: local midnight starts at March 28 23:00 UTC and the next midnight is March 29 22:00 UTC.
 

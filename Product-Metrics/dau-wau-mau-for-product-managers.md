@@ -6,7 +6,7 @@
 |---|---|---|
 | DAU | Distinct active users in a defined day | Number of events or sessions |
 | WAU | Distinct active users in a defined seven-day or calendar-week window | Sum of seven daily unique counts |
-| MAU | Distinct active users in a defined monthly window | Necessarily the last 30 days; calendar months differ |
+| MAU | Distinct active users in a defined calendar-month or rolling approximately 30-day window | Necessarily the last 30 days; calendar months differ |
 | DAU/MAU | Daily unique audience divided by a compatible monthly unique audience | The percentage who returned every day |
 | WAU/MAU | Weekly unique audience divided by a compatible monthly unique audience | Cohort retention by itself |
 

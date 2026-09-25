@@ -33,7 +33,7 @@ Avoid logging passwords, access tokens, session secrets or entire sensitive payl
 
 ## Design retention and failure behavior
 
-Name an owner for retention, deletion and access review. Include copies in exports, backups and downstream systems when scoping the policy. Different records can have different justified retention needs; Product should not invent a universal number of days or a legal rule.
+Name an owner for retention, deletion and access review. Include backups, audit records, derived stores and exports in the data lifecycle analysis. Different systems may legitimately have different reviewed retention and deletion behavior; document those differences explicitly rather than assuming one rule applies to every copy. Different records can have different justified retention needs; Product should not invent a universal number of days or a legal rule.
 
 Ask what happens if an audit write fails. Should the business action stop, proceed with another durable record, or trigger an operational response? The right behavior depends on risk and requirements. Also ask who can alter records and how the design detects unauthorized changes. “Append-only” in a diagram is not proof of tamper resistance.
 
