@@ -52,18 +52,19 @@ This identifies a remaining product concern: what counts as a consecutive day wh
 A possible path is:
 
 ```text
-Commit → Review and checks → Merge → Build and validation
-                                              |
-                                              v
-                                           Staging
-                                              |
-                                              v
-                                Production: flag OFF
-                                              |
-                                     Enable the feature
-                                              v
-                                Production: flag ON
-                                for the selected audience
+Commit -> Review and checks -> Merge
+  |
+  v
+Build and validation
+  |
+  v
+Staging
+  |
+  v
+Production deployment (flag OFF)
+  |
+  v
+Customer exposure (flag ON for selected audience)
 ```
 
 This is a simplified example with a feature flag. Checks may run before and after merging, builds may happen at several stages, and some teams organize the path differently. Map your team's actual milestones instead of treating this sequence as universal.
