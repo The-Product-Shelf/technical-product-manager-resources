@@ -83,6 +83,11 @@ For mobile apps, remember that an already-installed version can remain on users'
 
 For the earlier stages of delivery, use the [CI/CD glossary](cicd-glossary-for-product-managers.md).
 
+## Related resources
+
+- [Progressive Rollouts for Product Managers](progressive-rollouts-for-product-managers.md) — Define exposure units, evidence gates and stop conditions.
+- [Mobile App Releases for Product Managers](mobile-app-releases-for-product-managers.md) — Coordinate store distribution, installed versions and backend compatibility.
+
 ---
 
 ### Explore launch and recovery decisions

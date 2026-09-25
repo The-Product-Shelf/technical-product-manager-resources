@@ -54,6 +54,12 @@ These answers describe different products, even if each is labeled “calendar s
 - What happens when requests are delayed, repeated or rejected?
 - Which contract changes would require work on our side?
 
+## Related resources
+
+- [HTTP Methods for Product Managers](http-methods-for-product-managers.md) — Choose the operation and understand safe versus idempotent behavior.
+- [Polling vs Webhooks for Product Managers](polling-vs-webhooks-for-product-managers.md) — Define freshness, delivery failure and reconciliation for calendar sync.
+- [Pagination and Rate Limits for Product Managers](pagination-and-rate-limits-for-product-managers.md) — Plan a complete import under changing data and request limits.
+
 ---
 
 ### Explore an integration from start to finish

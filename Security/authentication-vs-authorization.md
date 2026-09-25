@@ -81,6 +81,11 @@ A 401 commonly points to missing or invalid authentication; a 403 indicates refu
 
 For related vocabulary, use the [security glossary](security-glossary-for-product-managers.md).
 
+## Related resources
+
+- [Sessions for Product Managers](sessions-for-product-managers.md) — Specify expiry, logout and revocation across devices and organizations.
+- [API Keys vs OAuth for Product Managers](api-keys-vs-oauth-for-product-managers.md) — Choose an access model for service and user-delegated integrations.
+
 ---
 
 ### Follow access through the user lifecycle

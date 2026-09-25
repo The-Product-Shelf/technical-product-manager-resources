@@ -60,6 +60,11 @@ Clarify the intended behavior when the requester loses their role before the exp
 
 For a worked permissions example, see [Authentication vs Authorization](authentication-vs-authorization.md).
 
+## Related resources
+
+- [API Keys vs OAuth for Product Managers](api-keys-vs-oauth-for-product-managers.md) — Choose an access model for service and user-delegated integrations.
+- [MFA and Account Recovery for Product Managers](mfa-and-account-recovery-for-product-managers.md) — Protect sensitive actions while designing usable recovery paths.
+
 ---
 
 ### Apply security concepts to everyday features

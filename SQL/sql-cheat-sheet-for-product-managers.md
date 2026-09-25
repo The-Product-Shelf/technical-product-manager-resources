@@ -116,6 +116,11 @@ If this count rises, a falling unique-user count may reflect tracking changes. I
 
 To combine user attributes with activity, use [SQL JOINs Explained](sql-joins-explained-for-product-managers.md). To define rates, see the [product metrics cheat sheet](../Product-Metrics/product-metrics-cheat-sheet.md).
 
+## Related resources
+
+- [GROUP BY, WHERE and HAVING for Product Managers](group-by-where-and-having-for-product-managers.md) — Build segment summaries and distinguish input filters from group filters.
+- [CTEs for Product Managers](ctes-for-product-managers.md) — Make a multi-stage analysis readable and check its intermediate populations.
+
 ---
 
 ### Build confidence with product queries

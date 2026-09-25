@@ -92,6 +92,11 @@ That may be exactly what we want when targeting current customers. For a histori
 - Does each attribute describe the present or the time of the event?
 - How many rows and distinct users exist before and after the join?
 
+## Related resources
+
+- [GROUP BY, WHERE and HAVING for Product Managers](group-by-where-and-having-for-product-managers.md) — Build segment summaries and distinguish input filters from group filters.
+- [Product Funnel Queries for Product Managers](product-funnel-queries-for-product-managers.md) — Implement an ordered, bounded funnel with reproducible sample data.
+
 ---
 
 ### Use joined data to answer product questions

@@ -61,6 +61,12 @@ This is an illustrative architecture, not a prescription. Ask Engineering where 
 
 For a comparison of deployment structures, continue with [Monolith vs Microservices](monolith-vs-microservices-for-pms.md).
 
+## Related resources
+
+- [Synchronous vs Asynchronous Processing for PMs](synchronous-vs-asynchronous-processing-for-pms.md) — Separate acceptance from completion and specify the job lifecycle.
+- [Queues and Message Brokers for PMs](queues-and-message-brokers-for-pms.md) — Reason about backlogs, redelivery, ordering and failed work.
+- [Caching for Product Managers](caching-for-product-managers.md) — Agree on acceptable freshness for different product data.
+
 ---
 
 ### Connect the architecture pieces
